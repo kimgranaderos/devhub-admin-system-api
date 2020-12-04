@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import CoWorkingSpace, Customer, Conference, Membership 
 
-# Register your models here.
+admin.site.register(CoWorkingSpace)
+admin.site.register(Customer)
+admin.site.register(Conference)
+admin.site.register(Membership)
